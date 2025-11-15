@@ -18,6 +18,12 @@ Run the complete pipeline:
 uv run python main.py
 ```
 
+## Results
+
+| Model Calibration | Risk Mapping | Variable Influence Analysis |
+|:------------:|:-----------------:|:---------------------------:|
+| <img src="images/calibration.png" width="300" height="250"> | <img src="images/risk_map.png" width="300" height="250"> | <img src="images/inference_ranking.png" width="300" height="250"> |
+
 ## Project Structure
 
 - **`config.py`** - Configuration constants and expert constraints
